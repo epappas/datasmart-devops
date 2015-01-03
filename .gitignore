@@ -13,3 +13,4 @@ chef-solo/
 .ssh
 .pem
 .pub
+knife.rb
