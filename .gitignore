@@ -10,3 +10,6 @@ bin/*
 .kitchen.local.yml
 chef-solo/
 
+.ssh
+.pem
+.pub
