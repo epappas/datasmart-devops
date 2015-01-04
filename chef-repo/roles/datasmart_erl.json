@@ -4,7 +4,15 @@
     "json_class": "Chef::Role",
     "description": "datasmart_erl base server",
     "override_attributes": {},
-    "default_attributes": {},
+    "default_attributes": {
+        "couch_db": {
+            "config": {
+                "httpd": {
+                    "port": 5889
+                }
+            }
+        }
+    },
     "env_run_lists": {
 
     },
