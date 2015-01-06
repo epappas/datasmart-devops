@@ -14,7 +14,11 @@
         }
     },
     "env_run_lists": {
-
+        "development": [ ],
+        "experimental": [ ],
+        "test": [ ],
+        "uat": [ ],
+        "production": [ ]
     },
     "run_list": [
         "recipe[apt]",
