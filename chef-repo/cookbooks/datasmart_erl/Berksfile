@@ -1,0 +1,18 @@
+source "https://supermarket.chef.io"
+source "https://berks-api.vialstudios.com"
+
+metadata
+
+cookbook 'nginx'
+cookbook 'build-essential'
+cookbook 'openssl'
+cookbook 'erlang'
+cookbook 'couchdb'
+cookbook 'nodejs'
+cookbook 'redisio'
+cookbook 'chef-client'
+cookbook 'chef-server'
+cookbook 'iptables'
+cookbook 'git'
+cookbook 'apt'
+cookbook 'pm2', git: 'https://github.com/viyh/chef-cookbook-pm2.git'
