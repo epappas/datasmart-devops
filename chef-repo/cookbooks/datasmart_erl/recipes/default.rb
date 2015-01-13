@@ -17,9 +17,9 @@
 # limitations under the License.
 
 include_recipe 'build-essential'
-include_recipe 'openssl'  if node['couch_db']['install_openssl']
-include_recipe 'erlang'   if node['couch_db']['install_erlang']
-include_recipe 'git'      if node['couch_db']['install_git']
+include_recipe 'openssl'  if node['datasmart_erl']['config']['install_openssl']
+include_recipe 'erlang'   if node['datasmart_erl']['config']['install_erlang']
+include_recipe 'git'      if node['datasmart_erl']['config']['install_git']
 
 app_tar_gz = File.join(Chef::Config[:file_cache_path], '/', "datasmart_erl-#{node['datasmart_erl']['version']}.tar.gz")
 
